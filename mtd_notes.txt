@@ -1,0 +1,58 @@
+DAY1 THURSDAY 06-03-2025
+
+IMPORTANT GIT COMMANDS
+
+$ git status
+// To know the current status of our Repo
+
+$ git clone <URL>
+// To download a Repo
+
+git clone https://github.com/neelmyna/vvce_mar25
+// Example to download the repo
+
+$ git pull origin main
+// Command to download the updated Repo from the server to the local machine
+
+To make our computer recognise our git account, we must run these 2 conguration commands:
+
+$ git config --global user.name "neelmyna"
+
+$ git config --global user.email "nithin@gmail.com"
+
+STEPS TO CREATE A NEW PAT IN GITHUB:
+
+Login to github
+Right top corner Click on your profile
+Scroll down and click settings
+Next window, scroll down, on left bottom corner, click developer settings
+Next window, on top left, Click personal access tokens, Click again on token Classic
+Next window, Click on Generate new token button and select Tokens classic
+(Now u may be asked to enter password)
+Next, Add a note for the new PAT we are creating
+Select Expiry -> No expiration
+Select the Top check box named REPO
+Scroll down fully and click the green button (generate token)
+Now, copy the PAT
+Come to your gmail and mail the PAT to yourself or to one of your own account (Mail Subject: GIT PAT)
+
+Now, let us Sync our Remote Repo with Local Repo
+In other words, we are going to CLONE our Repo using the PAT.
+By doing so, we can perform Read-Write operations on our Remote Repo without having to Authenticate everytime.
+
+$ git clone https://<PAT>@github.com/neelmyna/vvce_mar25
+
+Commands required to upload files from local repo to remote:
+
+$ git add .
+// Git will mark all the files that need to be updated
+
+$ git commit -m "notes file of the mtd training is added"
+// Git creates an object that will inlclude all the files to be uploaded and also it is secured (encription)
+
+$ git push origin main
+// the object now is sent to the server (the remote repo is updated)
+
+
+
+
