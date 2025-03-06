@@ -167,6 +167,18 @@ https://docs.google.com/forms/d/1EeGEEXDQr3LvW9fYCpQ1VMpzZ8m2PTfwghtx9MOxHB8/edi
 3. Check if a number is perfect square
 4. Find the 2nd smallest digit in a number
 5. Find sum of Odd placed Even digits in a number.
+----------------------------------------------
+Youtube links:
+1. to create github and sync local and remote repos
+https://www.youtube.com/watch?v=EWttNzNBqBc&t=2s
+
+2. C programming content
+https://www.youtube.com/watch?v=5iFdwNb2WKI&t=9s
+
+3. How to install and arrange Apps in our laptops
+https://www.youtube.com/watch?v=Yt1whvpWMU0&t=20s
+
+
 
 
 
