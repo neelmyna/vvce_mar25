@@ -45,13 +45,121 @@ $ git clone https://<PAT>@github.com/neelmyna/vvce_mar25
 Commands required to upload files from local repo to remote:
 
 $ git add .
-// Git will mark all the files that need to be updated
+// Git will mark(stage) all the files that need to be updated
 
 $ git commit -m "notes file of the mtd training is added"
 // Git creates an object that will inlclude all the files to be uploaded and also it is secured (encription)
 
 $ git push origin main
 // the object now is sent to the server (the remote repo is updated)
+
+// Accept a number from the user and check if it is Even.
+#include<stdio.h>
+
+int main() {
+    int inutNum = 0;
+    puts("Enter a number to check if it is Even");
+    scanf("%d", &inutNum);
+    if(inutNum % 2 == 0)
+        printf("%d is Even", inutNum);
+    
+
+}
+---------------------------------
+// Accept a number from the user and check if it is Even or not
+#include <stdio.h>
+
+int main()
+{
+    int inutNum = 0;
+    puts("Enter a number to check if it is Even");
+    int returnValue = scanf("%d", &inutNum);
+    if (inutNum % 2 == 0)
+        printf("%d is Even number", inutNum);
+    else
+        printf("%d is not an Even number", inutNum);
+    return 0;
+}
+----------------------------
+1	2
+2	4
+3	8
+4	16
+
+0000
+1111	15	f	F
+
+f f  = 240 + 15 = 255
+1111 1111
+0000 0000
+0 to 255
+
+11001 = 25
+111011  59
+
+
+1111 1111
+
+int num = -21;
+-21
+21
+0001 0101
+1110 1010
+1110 1011
+-1*2(7) + 1*2(6) + 1*2(5) + 11
+-128 + 64 + 32 + 11
+-64 + 43
+-21
+
+by default all numbers are signed
+
+int num;
+signed int num;
+--------------------------
+TYPE CASTING
+
+float num = 11 / 3;
+printf("%f", num);
+
+int num = 11 / 3.0;
+printf("%d", num);
+
+11 to 11.0 (int to double) implicit up cast
+we get 3.666667
+3.666667 is converted to int (from double to int)
+implicit down cast
+
+int num = (int) 11.5f / 2.0;
+printf("%d", num);
+
+11.5f to 11 (float to int) explicit down cast
+11 / 2.0
+11 to 11.0 (int to double) implicit up cast
+11.0 / 2.0
+5.5
+5.5 to 5 (double to int) implicit down cast
+------------------------------------
+#include <stdio.h>
+
+int main()
+{
+    int i = -1;
+    i -= -1;
+    printf("%d", i);
+    return 0;
+}
+------------------------------------
+Day1 student feedback link:
+
+https://docs.google.com/forms/d/1ox_1T_FQtzcQtC49wHtExgAwqVJgzTm1o8QqNkqA690/edit
+
+Day1 Assessment Link:
+
+https://docs.google.com/forms/d/1EeGEEXDQr3LvW9fYCpQ1VMpzZ8m2PTfwghtx9MOxHB8/edit
+
+
+
+
 
 
 
