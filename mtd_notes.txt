@@ -376,3 +376,18 @@ https://docs.google.com/forms/d/1nEy8Etbl5Auw7wkSpDETvm5XpKusauvyrwQW7tkwscI/edi
 
 Day2 Assessment Link:
 https://docs.google.com/forms/d/1aV4PmYfF-zRCc0JI0af9mXzY0R1PPfmFvoyBWpD0uIc/edit
+------------------------------------------
+Day2 Assignments:
+1. Accept a number and generate the next bigger possible number (not biggest) which must have all the digits of the given number with same frequency.
+2. Tax calculation program 
+3. 
+4. 
+------------------------------------------
+DAY3 SATURDAY 07-03-2025
+switch case restaurant app
+pointers
+functions
+recursion
+storage classes
+different options with gcc
+multi file program
