@@ -213,9 +213,110 @@ int n = 10;
 printf("%d  %d  %d  %d  %d", n--, ++n, --n, n--, n++);
 ----------------------------------------
 
+#include <stdio.h>
 
+int main()
+{
+    int a = 3, b = -2, c = 8;
+    b++;
+    printf("%d  %d  %d \n", a, b, c); // 3 -1  8
+    ++b;
+    printf("%d  %d  %d \n", a, b, c); // 3  0  8
+    c = a--;
+    printf("%d  %d  %d \n", a, b, c); // 2  0  3
+    b = ++c;
+    printf("%d  %d  %d \n", a, b, c); // 2  4  4
+    c = a-- + --a;
+    //  2   +  0
+    printf("%d  %d  %d \n", a, b, c); // 0  4  2
+}
+----------------------------------------
+int main()
+{
+    int a = 13, b = 2, c = -8;
+    if (a <= b & (++b != --c || a > c++))
+        puts("Tadiamdamol");
+    else
+        puts("Pushpagiri");
+    printf("%d  %d  %d \n", a, b, c); // T13 3 -9, 13 4 -9T
+}
+-------------------------------------------
+5 STEPS SOLVE A PROBLEM.
 
+1. Understand the problem. Recognise the I/P data and the relavent information. Isolate the unwanted data and info.
+Recognise the O/P.
+2. Find the solution(s) with all possible ways, trial and error method, applying an algorithm etc.
+3. Write down the Algorithm
+Step by step procedure to solve the problem'.
+Each step must be Atomic (SRP), simple and finite.
+4. Write the Fake code (pseudocode)
+5. Code it
 
+Check if a number (+ve integer) is Perfect Square.
 
+1. Read I/P number, say N
+2. ROOT = (INTEGER) squareRoot(N)
+   ROOT = floor(squareRoot(N))
+3. if ROOT * ROOT == N then
+	 print N is PS
+   else
+	 print N is not PS
+	 
+40	6.4331	6	36
+196	14.0	14	196	
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int inputNum = 0;
+    puts("Enter a number to check if it is Perfect Square");
+    scanf("%d", &inputNum);
+    int root = floor(sqrt(inputNum));
+    if (root * root == inputNum)
+        printf("%d is a perfect square", inputNum);
+    else
+        printf("%d is not a perfect square", inputNum);
+}
+-------------------------------------------------
+
+10 sqrt(100)
+float sqrt(int);
+double sqrt(double);
+float sqrt(float);
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int averageScore = 0;
+    puts("Enter average score of the student to print the result");
+    scanf("%d", &averageScore);
+    if (averageScore >= 0 && averageScore <= 49)
+        puts("Result is Fail");
+    else if (averageScore <= 70)
+        puts("Result is second class");
+    else if (averageScore <= 90)
+        puts("Result is First class");
+    else if (averageScore <= 100)
+        puts("Result is Distinction");
+    else
+        puts("Invalid Score endtered");
+}
+-------------------------------------------------
+Find Nth term of the series: 1 2 2 3 3 5 5 7 8 11 13 13
+11th
+Odd terms: Fibo series (N+1)/2 th fibo term is the Nth
+20th
+Even terms: Prime numbers: N/2th Prime term
+
+Read N
+if N % 2 == 0:
+	findPrimeTerm(N/2)
+else
+	findFiboTerm(N/2+1)
+---------------------------------------------
 
 
