@@ -318,5 +318,61 @@ if N % 2 == 0:
 else
 	findFiboTerm(N/2+1)
 ---------------------------------------------
+int main()
+{
+    int n1 = 89;   // decimal
+    int n2 = 067;  // octal
+    int n3 = 0x99; // hexa decimal
+    printf("%d  %i  %o  %x \n", n1, n1, n1, n1);
+    //      89  89  131 59
+    printf("%d  %i  %o  %x \n", n2, n2, n2, n2);
+    //      55  55  67  37
+    printf("%d  %i  %o  %x \n", n3, n3, n3, n3);
+    //      153 153 231 99
+}
+---------------------------------------------
+int inum = 12345;
+float fnum = 74.916f;
+char str[32] = "mysooru";
 
+printf("%d \n", inum); // 12345
+printf("%7d \n", inum); // __12345
+printf("%3d \n", inum); // 12345
+printf("%-8d \n", inum); // 12345***
+printf("%07d \n", inum); // 0012345
+printf("%-07d \n", inum); // 12345
 
+Accept a number from the user and print Math table
+
+6 * 1 = 6
+6 * 2 = 12
+6 * 3 = 18
+
+6 * 10 = 60
+-----------------------------------
+Find 2nd smallest digit in the given number.
+
+674783
+35
+8
+
+789
+24
+6
+
+Loop inside a loop
+
+8 iterations
+1 or 2
+
+O(n square)
+
+10 + 2 = 12 iterations
+
+Solve this problem using a loop alone.
+---------------------------------------------------
+Student Feedback - Day2
+https://docs.google.com/forms/d/1nEy8Etbl5Auw7wkSpDETvm5XpKusauvyrwQW7tkwscI/edit
+
+Day2 Assessment Link:
+https://docs.google.com/forms/d/1aV4PmYfF-zRCc0JI0af9mXzY0R1PPfmFvoyBWpD0uIc/edit
