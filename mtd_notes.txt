@@ -167,6 +167,7 @@ https://docs.google.com/forms/d/1EeGEEXDQr3LvW9fYCpQ1VMpzZ8m2PTfwghtx9MOxHB8/edi
 3. Check if a number is perfect square
 4. Find the 2nd smallest digit in a number
 5. Find sum of Odd placed Even digits in a number.
+23434413 = o/p=10
 ----------------------------------------------
 Youtube links:
 1. to create github and sync local and remote repos
@@ -177,7 +178,40 @@ https://www.youtube.com/watch?v=5iFdwNb2WKI&t=9s
 
 3. How to install and arrange Apps in our laptops
 https://www.youtube.com/watch?v=Yt1whvpWMU0&t=20s
+---------------------------------------------------
+DAY2 FRIDAY 07-03-2025
 
+Arithmetic Operators: + - * / %
+All are binary operators
+I/P are numbers
+O/P is number
+Used with Infix Notation
+To perform any arithmetic operation, DT of both the operands must be same
+Left to right associtivity w.r.t. reading the values/expressions
+For the calculation to happen, the user/programmer given infix expression must be converted to postfix.
+The operators have different hierarchy(precedence)
+------------------------------------------
+Relational Operators: > < == != >= <=
+
+for int i = 1; i <= 10; i++
+
+for int i = 1; i < 11; i++
+
+[10, 20]
+
+num >= 10 and num <= 20
+
+(10, 30)
+num > 10 and num < 30
+
+[10, 40)
+----------------------------------------------
+Logical operators: & && | || !
+
+Assignment:
+int n = 10;
+printf("%d  %d  %d  %d  %d", n--, ++n, --n, n--, n++);
+----------------------------------------
 
 
 
