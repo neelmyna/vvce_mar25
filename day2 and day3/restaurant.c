@@ -4,6 +4,7 @@ int main()
 {
     int foodType = 0, itemNumber = 0;
     puts("Welcome to our restaurant The Taste");
+    do {
     puts("What you wish to have Veg:1, NonVeg:2. You choice please");
     scanf("%d", &foodType);
     switch (foodType)
@@ -18,7 +19,7 @@ int main()
         case 3: puts("Soft Idli and hot Vada Maam"); break;
         case 4: puts("Fresh Hot bath with Pure Ghee Sir"); break;
         default:puts("Sorry we dont serve your choice of food");
-        }
+        } break;
     case 2: puts("1:Fish-Fry 2:Chicken-Biryani 3:Hanumantu-Palav 4:Egg-Masala. Your choice please: ");
         scanf("%d", &itemNumber);
         switch (itemNumber)
@@ -28,8 +29,11 @@ int main()
         case 3: puts("Famous palav for you Maam"); break;
         case 4: puts("Delicious Egg masala Maam!!!"); break;
         default:puts("Sorry we dont serve Lizards and Cockroaches!");
-        }
+        } break;
         default:puts("This is Restaurtant, not Garden. Please Order an item");
     }
+    puts("Do you wish to have more? Yes:1, No:Any number");
+    scanf("%d", &itemNumber);
+    }while(itemNumber == 1);
     puts("Namaste Visit Again");
 }
