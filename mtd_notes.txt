@@ -385,9 +385,135 @@ Day2 Assignments:
 ------------------------------------------
 DAY3 SATURDAY 07-03-2025
 switch case restaurant app
-pointers
+different options with gcc (-E -S -c -o -lm .....)
 functions
-recursion
-storage classes
+pointers
 different options with gcc
 multi file program
+
+recursion
+storage classes
+hacker rank problem solving on Arrays
+-------------------------------
+POINTERS
+
+& operator:
+	"Address of" operator
+It can be applied only to a variable, including a pointer, because a pointer is also a variable.
+When we apply & to a variable we get its address.
+
+* operator:
+	"Value At" or "Dereferencing" operator
+It can be applied only to an address, including to a pointer because pointer holds an address.
+When we apply * to an address, we get the value present in that address.
+
+int num = 20;
+---------------------
+
+int main() {
+    float num = 5.5f;
+    printf("Value of num = %f \n", num);
+    printf("Address of num = %u \n", &num);
+    printf("Value of num = %f \n", *(&num));
+}
+
+*(&num)
+= value at [ address of(num)]
+= v at [1101]
+= 20 = num
+-------------------------------
+// behaviour of a number
+int main()
+{
+    int num = 30;
+    printf("%d  %d  %d  %d", num - 1, num, num + 1, num + 2);
+}
+------------------------------
+// behaviour of an address
+int main()
+{
+    double num = 30.11; // assume address of 1101
+    printf("%u  %u  %u  %u \n", &num - 1, &num, &num + 1, &num + 2);
+    printf("%p  %p  %p  %p", &num - 1, &num, &num + 1, &num + 2);
+}
+------------------------------
+
+int main()
+{
+    char c;
+    int i;
+    short int si;
+    double d;
+    printf("%d  %d  %d  %d \n", sizeof(char), sizeof(int), sizeof(short int), sizeof(double));
+    printf("%d  %d  %d  %d \n", sizeof(char*), sizeof(int*), sizeof(short int*), sizeof(double*));
+    printf("%d  %d  %d  %d \n", sizeof(&c), sizeof(&i), sizeof(&si), sizeof(&d));
+}
+----------------------------------------
+int main()
+{
+    char c = 'A'; // Assume address of c as 101
+    int i = 10;   // Assume address of i as 201
+    char *pc = (char *)&i;
+    int *pi = (int *)&c;
+    printf("%u  %u \n", &c, &i);         // 101  201
+    printf("%u  %u \n", pc, pi);         // 201  101
+    printf("%u  %u \n", pc + 1, pi + 1); // 205  105
+    printf("%c  %d \n", c + 1, i + 1);   // B  11
+}
+-----------------------------------
+#include <stdio.h>
+
+int main() {
+    int num; // assume junk
+    int *p = NULL; //  assume junk address. assume p holds address of printer
+    printf("%u", p); // we got address of printer
+    *p = somevalue;
+}
+
+WILD Pointer
+------------------------------------
+int main(int argCount, char *argv[])
+{
+    int num = 0;
+    short int counter = 0;
+    while (num == 0)
+    {
+        printf("I am immortal - %d \n", counter);
+        counter++;
+    }
+    return 0;
+}
+
+
+call_function(number)
+	
+
+Read N
+if number is zero
+	print zero as result
+else
+	call_function(N)
+---------------------------------
+void myFunction(int num) // recursive function
+{
+    double array[10];
+    printf("I am immortal - %d \n", num);
+    num++;
+    myFunction(num); // recursive call
+}
+
+int main(int argCount, char *argv[])
+{
+    myFunction(0);
+    return 0;
+}
+----------------------------------------
+Find sum of digits of a number using Recursion
+
+Day3 Assessment:
+
+https://docs.google.com/forms/d/1NCrPHR6uPdPNgs6nh7H-UDbPvPCZp7S9uTT-7mGVkMk/edit
+
+Day3 Student Feedback Link:
+
+https://docs.google.com/forms/d/172WpW8BpV9MzVfKXqkYzbG_hxFUHdliQZ88kT-iSPK4/edit
