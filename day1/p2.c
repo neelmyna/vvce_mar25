@@ -2,5 +2,5 @@
 
 int main()
 {
-    
+    int num = 0;
 }
