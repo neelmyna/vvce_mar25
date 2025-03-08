@@ -1,12 +1,34 @@
+TOTAL POINTS
 Disha D		1
-Dhanush		1
+Dhanush	S	1
 Aapti		1
 Monish		1
 Disha C		1
 Greeshma	1
-Rakshita	1.1
+Rakshita	1
 Hamsitha	1
 Harsha		1
 Day1 Topper: Rakshitha USN: 4VV23EC411
+-------------------------------------------
+Day2:
+Apoorva		1
+Dhanush S	1, 1, 1
+Rakshitha	1, 1
+Harini		1
+Monish		1
+Bhavana		3
+Anagha		1
+Greeshma	1
+Day2 Topper: Dhanush S
+--------------------------
+Day3:
+Deekshitha H Y	2
+Chandana M		2
+Ananya H N		2
+Aapti			2
+Harini G S		1
+Dhanush S		1
+Monish			1
 
-
+Leading:
+Dhanush S 	4
