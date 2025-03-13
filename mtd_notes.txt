@@ -517,3 +517,102 @@ https://docs.google.com/forms/d/1NCrPHR6uPdPNgs6nh7H-UDbPvPCZp7S9uTT-7mGVkMk/edi
 Day3 Student Feedback Link:
 
 https://docs.google.com/forms/d/172WpW8BpV9MzVfKXqkYzbG_hxFUHdliQZ88kT-iSPK4/edit
+--------------------------------------------
+DAY4 THURSDAY 13-03-2025
+
+ARITHMETIC OPERATORS IN PYTHON
++ - * / // ** %
+
+++
+--
+
+range()
+
+
+range(10)			[0, 10)
+range(2, 10)
+range(1, 10, 3)
+range(10, -5, -2)
+
+-----------------------------
+Total land 80 a
+5 segments
+1 tomato	16 a
+2 potato	16 a
+3 cabbage	16 a
+4 sunflower	16 a
+5 sugarcane	16 a
+
+6 months to convert the land (16 * 3)
+4 months for 16 a
+4 months for 16 a
+
+tomato = 7 Rs/kg
+16 * .3 = X
+X * 10 * 1000 * 7 = ta
+16 * .7 = Y
+Y * 12 * 1000 * 7 = tb
+
+taa = ta + tb
+
+16 * 10 * 1000 * 20 = pa rupees
+
+16 * 14 * 1000 * 24 = ca rupees
+
+16 * 700 * 200 = sa rupees
+
+16 * 45 * 4000 = sca rupees
+----------------------------------------
+my_str = nithin:1234
+values = 'n@i@t h in'.split('@')
+
+STRING SLICING
+
+my_str = 'mysooru'
+print(my_str)
+print(my_str[:])
+print(my_str[:6])
+
+new_str = my_str[-1] + my_str[:-1]
+
+ysoorum
+soorumy
+new_str = my_str[2:] + my_str[:2]
+------------------------------------------
+my_str = nithin:1234
+values = my_str.split(':')
+
+values = ['nithin', '1234']
+
+sum = 0
+for char in values[1]:
+	sum = sum + int(char) ** 2   # 1 + 4 + 9 + 16
+
+print(sum) # 30
+-------------------------------
+Read the input string frm user say, my_str
+split the string on ':' and save the strings in the list values
+sum = 0
+for each digit/character in the number part values[1]
+	digit = convert the string to int
+	sum = sum + digit power 2
+
+if sum % 2 == 0:
+	new_str = my_str[-1] + my_str[:-1]
+else:
+	new_str = my_str[2:] + my_str[:2]
+----------------------------------------
+built in DS of PYTHON
+Impliment range function
+default args in function
+call by reference example
+command line args in Python
+Hacker Rank problem solving using Python
+classes and objects
+double underscore functions in python
+
+Day4 student feedback
+https://docs.google.com/forms/d/1-BFHIszc3qMekuU61StYJ8zArQMfW7MFnq05y-gixO4/edit
+
+Day4 Assessment Link
+https://docs.google.com/forms/d/1wEwlSnt_09605ncbSLdlG4Myko6aWofyDh24WruCarM/edit
