@@ -603,10 +603,10 @@ else:
 	new_str = my_str[2:] + my_str[:2]
 ----------------------------------------
 built in DS of PYTHON
-Impliment range function
 default args in function
 call by reference example
 command line args in Python
+Impliment range function
 Hacker Rank problem solving using Python
 classes and objects
 double underscore functions in python
@@ -619,3 +619,40 @@ https://docs.google.com/forms/d/1wEwlSnt_09605ncbSLdlG4Myko6aWofyDh24WruCarM/edi
 
 https://github.com/neelmyna/rnsit_sam_py/tree/main/day7
 
+-------------------------------------------------
+The minimum operations we perform on any data
+
+insert/create one record/object/tuple/row/document
+read/retrieve one record
+delete one record
+update one record
+list all records
+
+CRUD operations
+SOAP
+HTTP
+RESTful APIs
+
+VERBS
+Post	create (insert record)
+get		read all (get/id read one)
+put		update one record
+delete	delete one record
+
+Python Fundamentals: 1 day
+data types, opearators, library functions, python modules (sys, os, math), Conditional programming, loops
+
+Python Intermediate: 2 days
+Python data structures, string class, slicing, problem solving with Python
+
+Postgres Database: 2 days
+RDBMS concepts, SQL sub leanguages, constraints, basic SQL queries, Library functions on strings, date and math, group by, joins, views 
+
+Python Advance concepts: 1 day
+File handling, database connectivity, pdb, development in Python
+----------------
+https://docs.google.com/forms/d/1-BFHIszc3qMekuU61StYJ8zArQMfW7MFnq05y-gixO4/edit
+SF Day5
+
+Day5 Assessment Link:
+https://docs.google.com/forms/d/1b7H7_WwNC47pBoddMhqI66BBq6SXQtGSOI1TVTMJKQI/edit
