@@ -656,3 +656,19 @@ SF Day5
 
 Day5 Assessment Link:
 https://docs.google.com/forms/d/1b7H7_WwNC47pBoddMhqI66BBq6SXQtGSOI1TVTMJKQI/edit
+
+-----------------
+Write the Queries for:
+1. Count the total number of female records available in the table.
+2. Print the last/highest id in the table
+3. Print all the unique locations in the table
+4. Count the number of people from bengaluru
+5. Count the number of rows where gender data is unavailable
+6. Print all the person names that start from a
+7. Print all the person names that ends with a
+8. Print all the person names where 1st 2 letters are sa
+9. count the number of rows where person name has more than 10 letters.
+10. Find the persons who are male and from mangaluru and their name starts from s
+----------------------------------
+
+
