@@ -49,14 +49,19 @@ Leading Dhanush S (7)
 ---------------
 Day5 Friday	14-03-2025
 
-Ananya H N	2
+Ananya H N	2 + 1 + 1
 Aapti		1
 Disha D		1
 Dhanush	S	2
 Deekshitha	1
-Chandana M	1
+Chandana M	1 + 2
 Hamsitha	1
-Anitha		1
+Anitha		1 + 2
 Bhavana		1
 Abhinav		1
-Greeshma	1
+Greeshma	1 + 2 + 1
+Disha C		2
+Apoorva		1
+
+Day5 Topper: Greeshma
+------------------------------------------
