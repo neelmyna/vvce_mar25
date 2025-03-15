@@ -660,15 +660,85 @@ https://docs.google.com/forms/d/1b7H7_WwNC47pBoddMhqI66BBq6SXQtGSOI1TVTMJKQI/edi
 -----------------
 Write the Queries for:
 1. Count the total number of female records available in the table.
+
+select count(*) as Count_of_Females from persons where gender = 'f';
+
 2. Print the last/highest id in the table
+select max(id) as Max_Id from persons;
+
 3. Print all the unique locations in the table
-4. Count the number of people from bengaluru
-5. Count the number of rows where gender data is unavailable
+select distinct locations from persons;
+
+4. Count the number of people from bengaluru.
+select count(*) as Count_of_bengaluru_persons from persons where
+location = 'bengaluru';
+
+5. Count the number of rows where gender data is unavailable.
+select count(*) as count_of_gender_null from persons where gender is null;
+
+
 6. Print all the person names that start from a
 7. Print all the person names that ends with a
 8. Print all the person names where 1st 2 letters are sa
 9. count the number of rows where person name has more than 10 letters.
 10. Find the persons who are male and from mangaluru and their name starts from s
 ----------------------------------
+Day6 Friday	15-03-2025
 
+CRUD
+
+// Insert One Record
+insert into persons(name, gender, location) values('gagan', 'm', 'bengaluru');
+
+// Search One Record
+select name, location from persons where id = 5;
+
+// Update location of the person
+update persons set location = 'hubballi' where id = 3;
+
+// Delete One record
+delete from persons where id = 19;
+
+// List all records:
+select * from persons;
+
+// to list the tables in a DB:
+show tables;
+
+// To switch to a DB:
+use nithin_db;
+
+// To list the current DB:
+select database();
+
+// To list all databases:
+show databases;
+
+// To get the meta data of a table:
+desc persons;
+--------------------
+connect_db()
+disconnect_db(connection)
+readPersonDetails()
+insert_person()
+delete_person()
+update_person()
+search_person()
+listAllPersons()
+
+createDB()
+createTable()
+
+5 steps:
+connect to DB
+get cursor object
+run/execute the query
+close cursor
+close connection
+-----------------------------------
+Day6 Assessment Link:
+https://docs.google.com/forms/d/1noUbhYgkosR9QYfZUzwmfmE8Y23N6l1hTejoGje9F58/edit
+
+Student feedback Day6
+https://docs.google.com/forms/d/1FDZCTvPt3Gmdqf1M3BGZ4Te_nG2bLBA-z-ogVQnUzko/edit
 
